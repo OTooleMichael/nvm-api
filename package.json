@@ -1,17 +1,13 @@
 {
   "name": "new-voice-media",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "New Voice Media Node Wrapper - for stats",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
-    "chai": "^4.1.2",
-    "moment": "^2.18.1",
-    "nock": "^9.0.21",
-    "sinon": "^4.0.0",
-    "user": "^0.0.0"
+    "moment": "^2.18.1"
   },
   "keywords": [
     "new",
@@ -21,7 +17,10 @@
     "api"
   ],
   "devDependencies": {
-    "mocha": "^3.5.3"
+    "mocha": "^3.5.3",
+    "nock": "^9.0.21",
+    "sinon": "^4.0.0",
+    "chai": "^4.1.2"
   },
   "scripts": {
     "test": "NODE_ENV=test mocha './{,!(node_modules)/**/}*.spec.js'"
