@@ -1,14 +1,17 @@
 {
-  "name": "nvm-api",
-  "version": "0.0.1",
-  "description": "New Voice Media Js wrapper for Stats",
+  "name": "new-voice-media",
+  "version": "0.0.2",
+  "description": "New Voice Media Node Wrapper - for stats",
   "main": "index.js",
-  "scripts": {
-    "test": "NODE_ENV=test mocha './{,!(node_modules)/**/}*.spec.js'"
+  "directories": {
+    "lib": "lib"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OTooleMichael/nvm-api.git"
+  "dependencies": {
+    "chai": "^4.1.2",
+    "moment": "^2.18.1",
+    "nock": "^9.0.21",
+    "sinon": "^4.0.0",
+    "user": "^0.0.0"
   },
   "keywords": [
     "new",
@@ -17,19 +20,20 @@
     "nvm",
     "api"
   ],
-  "author": "Michael O Toole",
+  "devDependencies": {
+    "mocha": "^3.5.3"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha './{,!(node_modules)/**/}*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OTooleMichael/nvm-api.git"
+  },
+  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/OTooleMichael/nvm-api/issues"
   },
-  "homepage": "https://github.com/OTooleMichael/nvm-api#readme",
-  "dependencies": {
-    "moment": "^2.18.1"
-  },
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^3.5.3",
-    "nock": "^9.0.21",
-    "sinon": "^4.0.0"
-  }
+  "homepage": "https://github.com/OTooleMichael/nvm-api#readme"
 }
