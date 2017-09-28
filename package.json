@@ -1,6 +1,6 @@
 {
   "name": "new-voice-media",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "New Voice Media Node Wrapper - for stats",
   "main": "index.js",
   "directories": {
@@ -20,7 +20,8 @@
     "mocha": "^3.5.3",
     "nock": "^9.0.21",
     "sinon": "^4.0.0",
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "mockery": "^2.1.0"
   },
   "scripts": {
     "test": "NODE_ENV=test mocha './{,!(node_modules)/**/}*.spec.js'"
