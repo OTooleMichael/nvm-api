@@ -7,7 +7,7 @@ function start()
 {
 	let i = 0;
 	var nmv = new NVM(CONFIG);
-	let report = new nmv.Report({
+	let report = nmv.report({
 		report:"INBOUND",
 		start:'2017-06-01',
 		end:'2017-06-15'
