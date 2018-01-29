@@ -1,6 +1,6 @@
 {
   "name": "new-voice-media",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "New Voice Media Node Wrapper - for stats",
   "main": "index.js",
   "directories": {
